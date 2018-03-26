@@ -1,3 +1,4 @@
+DUB    ?= dub
 PANDOC ?= pandoc
 
 PACKAGE :=
@@ -13,9 +14,10 @@ TARGETS :=
 all: build
 
 build: $(TARGETS)
+	$(DUB) build
 
 check:
-	@echo "not implemented"; exit 2 # TODO
+	$(DUB) test
 
 dist:
 	@echo "not implemented"; exit 2 # TODO
@@ -28,6 +30,7 @@ uninstall:
 
 clean:
 	@rm -f *~ $(TARGETS)
+	$(DUB) clean
 
 distclean: clean
 

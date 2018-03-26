@@ -22,3 +22,6 @@ drylib-test-*
 *.o
 *.obj
 *.lst
+
+# Object files
+libdrylib.a
