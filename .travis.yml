@@ -1,0 +1,12 @@
+# https://docs.travis-ci.com/user/languages/d/
+language: d
+sudo: false
+d:
+  - dmd
+  - gdc
+  - ldc
+matrix:
+  fast_finish: true
+  allow_failures:
+    - d: gdc
+    - d: ldc
