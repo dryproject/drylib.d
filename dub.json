@@ -1,0 +1,9 @@
+{
+	"name": "drylib",
+	"authors": [
+		"Arto Bendiken <arto@dryproject.org>"
+	],
+	"description": "DRYlib for D.",
+	"copyright": "This is free and unencumbered software released into the public domain.",
+	"license": "public domain"
+}

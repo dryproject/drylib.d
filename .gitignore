@@ -6,3 +6,19 @@
 
 # rst2html outputs
 *.html
+
+# DUB
+.dub
+docs.json
+__dummy.html
+docs/
+drylib.so
+drylib.dylib
+drylib.dll
+drylib.a
+drylib.lib
+drylib-test-*
+*.exe
+*.o
+*.obj
+*.lst
